@@ -34,6 +34,11 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
+input[disabled],
+input[disabled]:hover {
+  background-color: #c7c7c7;
+}
+
 div.container {
   max-width: 500px;
   border-radius: 5px;
